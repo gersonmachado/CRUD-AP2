@@ -137,6 +137,29 @@ while opc != 0:
                     for x, y in cad.items():
 
                         print(f'{x: <20}{y[0]: <20}{y[1]: <20}')
+
+            if opc == 3:
+                if cad == {}:
+                    print(f'{"":-<57}')
+                    print(f'{"Nome": <19} {"CPF": <19} {"Telefone": <19}')
+                    print(f'{"":-<57}')
+                    print('Cadastro vazio')
+                else: #Modo Exclusão de item chave
+                    # Exibir cadastro
+                    print(f'{"":-<57}')
+                    print(f'{"Nome": <19} {"CPF": <19} {"Telefone": <19}')
+                    print(f'{"":-<57}')
+                    for x, y in cad.items():
+
+                        print(f'{x: <20}{y[0]: <20}{y[1]: <20}')
+
+                    excluir = input('\nDigite o nome do Cliente que deseja excluir: ')
+                    if excluir in cad:
+                        del(cad[excluir])
+                        print(f'Cliente {excluir} excluído!')
+                    else:
+                        print('Não existe!')
+
             if opc == 0:
                 opc = ''
                 break
@@ -183,6 +206,7 @@ while opc != 0:
                     modeloExc = input('Digite o modelo: ')
                     if excluir in prod:
                         del(prod[excluir])
+                        print(f'Moto {excluir} excluído!')
                     else:
                         print('Não existe no estoque!')
 
