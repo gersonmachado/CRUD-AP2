@@ -5,7 +5,7 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen/?style=flat-square&color=brightgreen)](https://github.com/gersonmachado/CRUD-AP3)
+[![Status](https://img.shields.io/badge/Status-Finished-brightgreen/?style=flat-square&color=red)](https://github.com/gersonmachado/CRUD-AP3)
 [![GitHub Issues](https://img.shields.io/badge/Issues-0-blue/?style=flat-square&color=blue)](https://github.com/gersonmachado/CRUD-AP3/issues)
 [![GitHub Pull Requests](https://img.shields.io/badge/Pull%20requests-0-blue/?style=flat-square&color=blue)](https://github.com/gersonmachado/CRUD-AP3/pulls)
 [![License](https://img.shields.io/badge/License-MIT-blueviolet/?style=flat-square&color=blueviolet)](/LICENSE)
